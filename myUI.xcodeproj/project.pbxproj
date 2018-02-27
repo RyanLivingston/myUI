@@ -60,7 +60,15 @@
 		C70B8D9E2044E73600884FB5 /* myUI */ = {
 			isa = PBXGroup;
 			children = (
+				C70B8DA92044FD2700884FB5 /* myUI */,
 				C70B8D9F2044E73600884FB5 /* main.cpp */,
+			);
+			path = myUI;
+			sourceTree = "<group>";
+		};
+		C70B8DA92044FD2700884FB5 /* myUI */ = {
+			isa = PBXGroup;
+			children = (
 				C70B8DA62044E75E00884FB5 /* myUI.h */,
 				C70B8DA72044E76B00884FB5 /* myUI.cpp */,
 			);
