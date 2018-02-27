@@ -7,9 +7,23 @@
 //
 
 #include <iostream>
+#include "myUI.h"
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    myUI menu;
+    menu.setHeaderN(25);
+    
+    menu.addLine("Menu Line 1");
+    menu.addLine("Menu Line 2");
+    menu.addLine("Menu Line 3", 2);
+    
+    menu.printMenu();
+    menu.runInput();
+    
+    menu.getInput();
+    
+
+    
     return 0;
 }
