@@ -35,7 +35,6 @@ private:
     string inputMsg;
     string errorMsg;
     char headerChar;
-    
 };
 
 #endif /* myUI_h */

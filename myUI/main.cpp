@@ -23,7 +23,5 @@ int main() {
     
     menu.getInput();
     
-
-    
     return 0;
 }
